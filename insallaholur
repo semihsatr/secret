@@ -1,0 +1,21 @@
+$ echo "website" >> README.md 
+
+SEMİH@DESKTOP-53R53 MINGW64 -/Desktop/vue_github_pages 
+$git init 
+Initialized empty Git repository in C:/Users/SemihS/Desktop/vue_github_pages/.git/ 
+
+SEMİH@DESKTOP-53R53 MINGW64 -/Desktop/vue_github_pages (master) 
+$ git add README.md 
+warning: LF will be replaced by CRLF in README.md. 
+The file will have its original line endings in your working directory
+
+SEMİH@DESKTOP-53R53 MINGW64 -/Desktop/vue_github_pages (master) 
+$ git commit -m "first commit" 
+[master(root-commit) 551fc2f] first commit 
+1 file changed, 1 insertion(+) 
+create mode 100644 README.md 
+
+SEMİH@DESKTOP-53R53 MINGW64 -/Desktop/vue_github_pages (master) 
+$ git remote add origin https://github.com/semihsatr/website.git 
+
+
